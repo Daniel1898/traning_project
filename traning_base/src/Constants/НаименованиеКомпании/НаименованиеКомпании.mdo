@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5219bbe4-10b8-4806-b3e5-7802ee0ccf26">
+  <producedTypes>
+    <managerType typeId="be9bc43b-15d9-4e14-b3b2-f70b97c5da1a" valueTypeId="bdd749cb-2635-48b7-9dfb-820be71c7ae1"/>
+    <valueManagerType typeId="bfda7902-3724-4ad9-9898-1547e735171f" valueTypeId="85707d1d-6c66-4435-8be9-5901c2f6c865"/>
+    <valueKeyType typeId="844286f4-44fe-4d9c-8327-54d41cc504c4" valueTypeId="6ccbb2c4-3e2b-4a51-81c8-ac3d52e1efa9"/>
+  </producedTypes>
+  <name>НаименованиеКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование компании</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

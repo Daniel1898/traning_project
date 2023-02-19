@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="565b5f7d-2c9f-474f-95e2-decc82c3da7c">
+  <producedTypes>
+    <managerType typeId="6fc87c7d-c1d1-4300-b9b0-5620bbb98a7d" valueTypeId="49ce82f4-98a6-43d7-98d3-ca17e650a043"/>
+    <valueManagerType typeId="a17aef58-2850-4cd3-87c2-64e757176720" valueTypeId="d8096e89-6031-4405-acc7-0d8e5f1602b8"/>
+    <valueKeyType typeId="63d1a92f-40b3-48f9-965d-2342838d59ad" valueTypeId="08dae063-6974-4a0e-9b56-d6e0906c8dc6"/>
+  </producedTypes>
+  <name>УчетПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет по складам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
